@@ -1,13 +1,23 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #213547;
+/* Base reset - App.css'deki stilleri engellemeyecek minimal reset */:root {
+
+body {  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  margin: 0;  line-height: 1.5;
+
+  padding: 0;  font-weight: 400;
+
+}  color: #213547;
+
   background-color: #ffffff;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#root {  font-synthesis: none;
+
+  width: 100%;  text-rendering: optimizeLegibility;
+
+  min-height: 100vh;  -webkit-font-smoothing: antialiased;
+
+}  -moz-osx-font-smoothing: grayscale;
+
 }
 
 a {
